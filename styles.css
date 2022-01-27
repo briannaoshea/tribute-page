@@ -1,0 +1,53 @@
+#main {
+    background-color: #040814;
+    color: white;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title, a {
+    color: #F7E871;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    width: 70%;
+    height: auto;
+    flex: 0 1 auto;
+}
+
+figcaption {
+    background-color:lightgrey;
+    color: #040814;
+    width: 70%;
+    font-size: 12px;
+}
+
+#tribute-info {
+    width: 70%;
+    padding: 0;
+    padding-top: 15px;
+    margin: 0;
+}
+
+#learn-more {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+}
